@@ -1,9 +1,11 @@
-/* file: peano.pl
-   author: David De Potter, pl3onasm@gmail.com
-   license: refer to the license file in this repository
-   description: Peano arithmetic in Prolog
-   note: predicates are tail-recursive when applicable so as to 
-         keep the stack size to a minimum and enhance efficiency
+/*  ┌───────────────────────────────────────────────────────────────┐
+    | file: peano.pl                                                |
+    | author: David De Potter, pl3onasm@gmail.com                   |
+    | license: refer to the license file in this repository         |
+    | description: Peano arithmetic in Prolog                       |
+    | note: predicates are tail-recursive when applicable so as to  |
+    |       keep the stack size to a minimum and enhance efficiency |
+    └───────────────────────────────────────────────────────────────┘
 */
 
   /* Takes two Peano numbers x,y and computes their sum x+y
