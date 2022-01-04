@@ -1,10 +1,11 @@
-/*  ┌─────────────────────────────────────────────────────────────────┐
-    |  file: peano.pl                                                 |
-    |  author: David De Potter, pl3onasm@gmail.com                    |
-    |  license: refer to the license file in this repository          |
-    |  description: Peano arithmetic in Prolog                        |
-    |  note: predicates are tail-recursive when applicable so as to   |
-    |        keep the stack size to a minimum and enhance efficiency  |
+/*
+    ┌─────────────────────────────────────────────────────────────────┐
+    │  File name: peano.pl                                            │
+    │  Author: David De Potter, pl3onasm@gmail.com                    │
+    │  License: refer to the license file in this repository          │
+    │  Description: Peano arithmetic in Prolog                        │
+    │  Note: predicates are tail-recursive when applicable so as to   │
+    │        keep the stack size to a minimum and enhance efficiency  │
     └─────────────────────────────────────────────────────────────────┘
 */
 
