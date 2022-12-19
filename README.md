@@ -1,6 +1,6 @@
 # Peano database
 
-This database provides the necessary predicates in order to do some basic arithmetic with Peano numbers in Prolog. It uses important techniques such as tail-recursion, accumulator-passing, wrapper predicates, and the use of the is/2 operator, and so may serve as a good example when studying these techniques in a course on Logic Programming.
+This database provides the necessary predicates in order to do some basic arithmetic with Peano numbers in Prolog. It uses important techniques such as tail-recursion, accumulator-passing, wrapper predicates, and the use of the is/2 predicate, and so may serve as a good example when studying these techniques in a course on Logic Programming.
 
 ## 🔹 Example queries for the Peano database
 
