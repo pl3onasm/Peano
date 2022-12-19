@@ -15,7 +15,7 @@ Dec = 2.
 🔸 *query: what is s(s(s(s(s(0))))) minus s(s(0)) ?*
 
 ```prolog
-?- X=s(s(s(s(s(0))))),Y=s(s(0)),subtract(X,Y,Diff).  
+?- subtract(s(s(s(s(s(0))))),s(s(0)),Diff).  
 Diff = s(s(s(0))).
 ```
 
@@ -50,9 +50,9 @@ Quotient = s(s(0)).
 🔸 *query: what is the sum of s(s(s(s(s(0))))) and s(s(s(0))), in peano and in decimal notation ?*  
 
 ```prolog
-?- add(s(s(s(s(s(0))))),s(s(s(0))),Sum),dec(Sum,Dec). 
+?- add(s(s(s(s(s(0))))),s(s(s(0))),Sum),dec(Sum,Decimal). 
 Sum = s(s(s(s(s(s(s(s(0)))))))),
-Dec = 8.
+Decimal = 8.
 ```
 
 🔸 *query: what is s(0) minus s(s(0)) ?*  
