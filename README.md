@@ -48,8 +48,6 @@ Y = s(s(s(0))),
 Quotient = s(s(s(s(0)))) .
 ```
 
-peano(12,X),peano(3,Y),divide(X,Y,Quotient).
-
 🔸 *query: what is the sum of 2 and 3, in decimal and peano notation?*
 
 ```prolog
