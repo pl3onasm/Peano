@@ -64,8 +64,8 @@ false. % undefined, peano numbers are non-negative
 🔸 *query: what is the remainder of s(s(s(s(s(s(s(s(0)))))))) divided by s(s(s(0))) ?*
 
 ```prolog
-?- mod(s(s(s(s(s(s(s(s(0)))))))),s(s(s(0))),Mod).
-Mod = s(s(0)).
+?- mod(s(s(s(s(s(s(s(s(0)))))))),s(s(s(0))),Remainder).
+Remainder = s(s(0)).
 ```
 
 🔸 *query: is s(s(s(s(s(0))))) even ?*  
