@@ -1,6 +1,6 @@
 # Peano database
 
-This database provides the necessary predicates in order to do some basic arithmetic with Peano numbers in Prolog. It uses important techniques such as tail-recursion, accumulator-passing, wrapper predicates, and the use of the is/2 predicate, and so may serve as a good example when studying these techniques in a course on Logic Programming.
+This database provides the necessary predicates in order to do some basic arithmetic with Peano numbers in Prolog. It uses important techniques such as tail-recursion, accumulator-passing, wrapper predicates, and the use of the is/2 predicate, and so may serve as a good example when studying these techniques in a course on Logic Programming. Obviously, this is just meant as a theoretical exercise, and certainly not as a practical way to do arithmetic in Prolog.
 
 ## 🔹 Example queries for the Peano database
 
@@ -79,9 +79,10 @@ false.
 
 ## 🔹 Usage
 
-- To load the database into the Prolog interpreter:  
+- Start the Prolog interpreter in the directory where the database is located:  ```swipl```
+
+- Load the database into the Prolog interpreter:  
   ```?- [peano].```      
   or:      
   ```?- consult(peano).```
-- To get the full, unabbreviated answer to a query:  hit key   `w`
-
+- To get the full, unabbreviated answer to a query:  hit key   `w`  after the query has been answered.
