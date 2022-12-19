@@ -2,8 +2,7 @@
 
 This database provides the necessary predicates in order to do some basic arithmetic with Peano numbers in Prolog.
 
-
-## 🔹 Example queries for the Peano database 
+## 🔹 Example queries for the Peano database
 
 🔸 *query: what is the decimal representation of s(s(0)) ?*
 
@@ -67,6 +66,13 @@ false. % undefined, peano numbers are non-negative
 ```prolog
 ?- mod(s(s(s(s(s(s(s(s(0)))))))),s(s(s(0))),Mod).
 Mod = s(s(0)).
+```
+
+🔸 *query: is s(s(s(s(s(0))))) even ?*  
+
+```prolog
+?- even(s(s(s(s(s(0)))))).
+false.
 ```
 
 ## 🔹 Usage
