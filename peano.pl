@@ -39,7 +39,8 @@ subtract(s(X),s(Y),Difference) :- subtract(X,Y,Difference).
 /* Takes two Peano numbers x,y and computes x div y
    The key idea is that division is just repeated subtraction
    Note that this is integer division, so the result is 
-   rounded down to the nearest integer
+   rounded down to the nearest integer and the remainder is discarded.
+   Also, the predicate fails if the divisor is zero.
    Formula: x div y = q  if  x - y*q = r  where r < y
 */
 divide(_,0,_) :- fail.    % division by zero is undefined	
