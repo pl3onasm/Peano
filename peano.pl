@@ -129,4 +129,3 @@ p(s(X)) :- p(X).   % the successor of X is a Peano number if X is one
 
 
 
-peano(2,X),peano(3,Y),add(X,Y,Z),dec(Z,Sum).
