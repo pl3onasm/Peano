@@ -43,7 +43,7 @@ Power = s(s(s(s(s(s(s(s(0)))))))).
 
 ```prolog
 ?- peano(12,X),peano(3,Y),divide(X,Y,Quotient).
-X = s(s(s(s(s(s(s(s(s(s(...)))))))))),
+X = s(s(s(s(s(s(s(s(s(s(s(s(0)))))))))))),
 Y = s(s(s(0))),
 Quotient = s(s(s(s(0)))) .
 ```
