@@ -43,7 +43,7 @@ Power = s(s(s(s(s(s(s(s(0)))))))).
 🔸 *query: what is (s(s(s(s(s(s(s(0))))))) divided by s(s(s(0))) ?*  
 
 ```prolog
-divide(s(s(s(s(s(s(s(0))))))),s(s(s(0))),Quotient).
+?- divide(s(s(s(s(s(s(s(0))))))),s(s(s(0))),Quotient).
 Quotient = s(s(0)).
 ```
 
