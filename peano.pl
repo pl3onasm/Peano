@@ -75,13 +75,13 @@ mod(X,Y,Rem) :-
   subtract(X,Y,Difference), 
   mod(Difference,Y,Rem).
 
-/* Takes two Peano numbers x,y and determines if x is even
+/* Takes a peano number x and determines if x is even
    Formula: x is even  if  x mod 2 = 0
 */
 
 even(X) :- mod(X,s(s(0)),0).
 
-/* Takes two Peano numbers x,y and determines if x is odd
+/* Takes a peano number x and determines if x is odd
    Formula: x is odd  if  x mod 2 = 1
 */
 
