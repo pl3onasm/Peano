@@ -77,7 +77,7 @@ false.
 
 ## 🔹 Usage
 
-- To load the database:  
+- To load the database into the Prolog interpreter:  
   ```?- [peano].```      
   or:      
   ```?- consult(peano).```
