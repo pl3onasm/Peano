@@ -39,11 +39,13 @@ true.
 Power = s(s(s(s(s(s(s(s(0)))))))).
 ```
 
-🔸 *query: what is (s(s(s(s(s(s(s(0))))))) divided by s(s(s(0))) ?*  
+🔸 *query: what is 12 divided by 3 in peano notation ?*  
 
 ```prolog
-?- divide(s(s(s(s(s(s(s(0))))))),s(s(s(0))),Quotient).
-Quotient = s(s(0)).
+?-  peano(12,X),peano(3,Y),divide(X,Y,Quotient).
+X = X = s(s(s(s(s(s(s(s(s(s(s(s(0)))))))))))),
+Y = s(s(s(0))),
+Quotient = s(s(s(s(0)))) .
 ```
 
 🔸 *query: what is the sum of s(s(s(s(s(0))))) and s(s(s(0))), in peano and in decimal notation ?*  
