@@ -50,9 +50,9 @@ Quotient = s(s(0)).
 🔸 *query: what is the sum of s(s(s(s(s(0))))) and s(s(s(0))), in peano and in decimal notation ?*  
 
 ```prolog
-?- add(s(s(s(s(s(0))))),s(s(s(0))),Sum),dec(Sum,Decimal). 
+?- add(s(s(s(s(s(0))))),s(s(s(0))),Sum),dec(Sum,Decim). 
 Sum = s(s(s(s(s(s(s(s(0)))))))),
-Decimal = 8.
+Decim = 8.
 ```
 
 🔸 *query: what is s(0) minus s(s(0)) ?*  
